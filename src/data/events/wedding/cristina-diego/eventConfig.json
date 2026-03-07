@@ -1,0 +1,349 @@
+{
+  "eventMeta": {
+    "type": "wedding",
+    "slug": "cristina-diego",
+    "status": "active",
+    "expirationDate": "2026-06-15",
+    "guestSystem": {
+      "enabled": true,
+      "showPasses": true
+    },
+    "effects": {
+      "petalsRain": {
+        "enabled": true
+      }
+    }
+  },
+
+  "theme": {
+    "base": "romantic",
+    "overrides": {}
+  },
+
+  "settings": {
+    "backgroundMusic": {
+      "enabled": true,
+      "src": "/music/just_the_two_of_us.mp3",
+      "autoplay": true,
+      "loop": true,
+      "volume": 0.95,
+      "showControl": true
+    }
+  },
+
+  "overlays": {
+    "introEnvelope": {
+      "enabled": true,
+      "variant": "default",
+      "styles": { "surface": "base" },
+      "overrides": {},
+      "config": {
+        "title": "Invitación para",
+        "showGuestName": true,
+        "buttonText": "Abrir invitación"
+      }
+    }
+  },
+
+  "sections": {
+    "topBar": {
+      "enabled": false,
+      "variant": "default",
+      "styles": { "surface": "base" },
+      "overrides": {},
+      "config": {
+        "links": {
+          "rsvp": "#",
+          "maps": "#",
+          "calendar": "#"
+        }
+      }
+    },
+
+    "hero": {
+      "enabled": true,
+      "variant": "split-left",
+      "styles": {
+        "surface": "base",
+        "backgroundImageMobile": "/images/hero.png",
+        "backgroundImage": "/images/hero1.png"
+      },
+      "overrides": {},
+      "config": {
+        "names": "Cris y Diego",
+        "date": "01 de mayo del 2026",
+        "city": "Con la bendición de Dios, unimos nuestras vidas",
+        "ctaText": "Confirmar asistencia"
+      }
+    },
+
+    "welcome": {
+      "enabled": true,
+      "variant": "default",
+      "styles": { "surface": "base" },
+      "overrides": {},
+      "config": {
+        "title": "Nos casamos",
+        "showDivider": true,
+        "message": "Las mejores cosas de la vida merecen ser compartidas, gracias por ser parte de nuestra historia.",
+        "signature": "- Cris & Diego -"
+      }
+    },
+
+    "countdown": {
+      "enabled": true,
+      "variant": "default",
+      "styles": {
+        "surface": "base",
+        "backgroundImage": "/images/countdown-bg.png",
+        "backgroundImageMobile": "/images/countdown-bg.png"
+      },
+      "overrides": {},
+      "config": {
+        "dateTime": "2026-05-01T15:30:00"
+      }
+    },
+
+    "ceremony": {
+      "enabled": true,
+      "variant": "default",
+      "styles": { "surface": "base" },
+      "overrides": {},
+      "config": {
+        "place": "Iglesia Católica Sagrada Familia de la Rumiñahui",
+        "address": "Av. del Maestro y Sebastián Buara",
+        "time": "3:30 PM",
+        "mapsLink": "https://maps.app.goo.gl/ubmwkU3KfMqoshYt9"
+      }
+    },
+
+    "reception": {
+      "enabled": true,
+      "variant": "default",
+      "styles": {
+        "surface": "base",
+        "backgroundImage": "/images/reception-bg.png"
+      },
+      "overrides": {},
+      "config": {
+        "place": "Quinta Oyola",
+        "address": "(Calderón) Calle Carapungo esquina Chasqui #11-30",
+        "time": "6:00 PM",
+        "mapsLink": "https://www.google.com/maps/place/Recepciones+Quinta+Oyola/@-0.1084813,-78.4317521,17z/data=!3m1!4b1!4m6!3m5!1s0x91d58fe8cdd46297:0x898dff81e282c843!8m2!3d-0.1084867!4d-78.4291772!16s%2Fg%2F11fm4qdb3c?entry=ttu&g_ep=EgoyMDI2MDMwNC4xIKXMDSoASAFQAw%3D%3D"
+      }
+    },
+
+    "dressCode": {
+      "enabled": true,
+      "variant": "default",
+      "styles": { "surface": "base" },
+      "overrides": {},
+      "config": {
+        "title": "Dress Code",
+        "description": "Vestimenta formal.",
+        "restrictions": "Evitar terracota, vino, rojo y beige.",
+        "recommendations": "Vestidos largos tipo cóctel."
+      }
+    },
+
+    "timeline": {
+      "enabled": true,
+      "variant": "default",
+      "styles": {
+        "surface": "base",
+        "backgroundImage": "/images/timeline-bg.jpg",
+        "overlay": "bg-white/60"
+      },
+      "overrides": {},
+      "config": {
+        "items": [
+          { "time": "3:30 PM", "description": "Misa" },
+          { "time": "6:00 PM", "description": "Recepción" }
+        ]
+      }
+    },
+
+    "importantInfo": {
+      "enabled": true,
+      "variant": "default",
+      "styles": { "surface": "base" },
+      "overrides": {},
+      "config": {
+        "title": "Información Importante",
+        "notes": [
+          "Rogamos puntualidad",
+          "Evento sin niños",
+          "Contamos con estacionamiento"
+        ],
+        "extraMessage": "Para que todos los adultos puedan disfrutar plenamente la celebración..."
+      }
+    },
+
+    "accommodation": {
+      "enabled": false,
+      "variant": "default",
+      "styles": {
+        "surface": "base"
+      },
+      "overrides": {},
+      "config": {
+        "title": "Hospedaje Sugerido",
+        "description": "Para quienes deseen hospedarse cerca del lugar de la celebración, recomendamos los siguientes hoteles:",
+        "places": [
+          {
+            "name": "Hotel Casa San Marcos",
+            "distance": "5 minutos del lugar del evento",
+            "link": "https://hotel.com"
+          },
+          {
+            "name": "Hotel Plaza Grande",
+            "distance": "10 minutos del lugar del evento",
+            "link": "https://hotel.com"
+          }
+        ]
+      }
+    },
+
+    "gifts": {
+      "enabled": true,
+      "variant": "default",
+      "styles": {
+        "surface": "base",
+        "backgroundImage": "/images/gifts-bg.jpg",
+        "overlay": "bg-gradient-to-r from-[#F5F1EE]/85 via-[#F5F1EE]/70 to-[#F5F1EE]/40"
+      },
+      "overrides": {},
+      "config": {
+        "type": "Lluvia de sobres",
+        "bankTransfer": {
+          "enabled": true,
+          "message": "Tu compañía en este día tan especial es nuestro mejor regalo. Si deseas tener un detalle con nosotros, puedes hacerlo mediante transferencia bancaria.",
+          "accountNumber": "2202926211",
+          "bank": "Pichincha",
+          "type": "Ahorros",
+          "name": "Cristina Toledo",
+          "id": "1104213861",
+          "email": ""
+        }
+      }
+    },
+
+    "gallery": {
+      "enabled": true,
+      "variant": "grid",
+      "styles": { "surface": "base" },
+      "overrides": {},
+      "config": {
+        "title": "Así vivimos nuestro amor",
+        "intro": "Algunos momentos especiales que queremos compartir contigo.",
+        "images": [
+          "/images/gallery/1.jpeg",
+          "/images/gallery/2.jpeg",
+          "/images/gallery/3.jpeg",
+          "/images/gallery/5.jpeg"
+        ]
+      }
+    },
+
+    "story": {
+      "enabled": true,
+      "variant": "default",
+      "styles": { "surface": "base" },
+      "overrides": {},
+      "config": {
+        "title": "Nuestra Historia",
+        "intro": "Un recorrido por algunos momentos que marcaron nuestra historia.",
+        "events": [
+          {
+            "date": "15 Febrero 2016",
+            "icon": "heart",
+            "title": "Nuestro primer encuentro",
+            "description": "¡Me dijo que era ladrón!",
+            "image": "/images/story/10.png"
+          },
+          {
+            "date": "15 Febrero 2017",
+            "icon": "heart",
+            "title": "Nos empezamos a conocer",
+            "description": "Qué linda personalidad",
+            "image": "/images/story/11.png"
+          },
+          {
+            "date": "15 Febrero 2018",
+            "icon": "heart",
+            "title": "Empezó el amor",
+            "description": "Por fin me conquistó",
+            "image": "/images/story/1.jpeg"
+          },
+          {
+            "date": "Junio 2019",
+            "icon": "map",
+            "title": "Me pidió ser su novia",
+            "description": "Acepté ante tanta insistencia.",
+            "image": "/images/story/4.jpeg"
+          },
+          {
+            "date": "Noviembre 2025",
+            "icon": "ring",
+            "title": "La propuesta",
+            "description": "Un momento inolvidable que cambió nuestras vidas.",
+            "image": "/images/story/3.jpeg"
+          }
+        ]
+      }
+    },
+
+    "playlist": {
+      "enabled": true,
+      "variant": "default",
+      "styles": {
+        "surface": "base",
+        "backgroundImage": "/images/playlist-bg.jpg",
+        "overlay": "bg-gradient-to-r from-[#F5F1EE]/85 via-[#F5F1EE]/70 to-[#F5F1EE]/40"
+      },
+      "overrides": {},
+      "config": {
+        "spotifyLink": "https://open.spotify.com/playlist/4B4lLxZ3ecHSgnqRNx4phu?si=5135ec9f518b49d1&pt=0f1e3583f3f784b6b2a3cd45b59132ad",
+        "description": "Agrega tu canción favorita."
+      }
+    },
+
+    "memories": {
+      "enabled": true,
+      "variant": "default",
+      "styles": { "surface": "base" },
+      "overrides": {},
+      "config": {
+        "uploadLink": "https://forms.gle/b5ESbbvgcmwbo6QE6",
+        "instructions": "Comparte tus fotos del evento. Para subirlas solo necesitarás iniciar sesión con tu cuenta Google."
+      }
+    },
+
+    "finalCTA": {
+      "enabled": true,
+      "variant": "default",
+      "styles": {
+        "surface": "base",
+        "backgroundImage": "/images/cta-bg.jpg",
+        "overlay": "bg-gradient-to-r from-[#F5F1EE]/85 via-[#F5F1EE]/70 to-[#F5F1EE]/40"
+      },
+      "overrides": {},
+      "config": {
+        "text": "Confirma tu asistencia",
+        "whatsappNumber": "+593992870801",
+        "message": "Hola, confirmo mi asistencia."
+      }
+    },
+
+    "footer": {
+      "enabled": true,
+      "variant": "default",
+      "styles": { "surface": "base" },
+      "overrides": {},
+      "config": {
+        "closingText": "¡Hagamos que este viaje valga la pena! Gracias por acompañarnos en nuestra mayor aventura.",
+        "copyright": "© Anvetcorp SAS 2026. All rights reserved"
+      }
+    }
+  }
+}

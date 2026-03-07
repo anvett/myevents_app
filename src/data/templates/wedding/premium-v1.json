@@ -1,0 +1,121 @@
+{
+  "eventMeta": {
+    "type": "wedding",
+    "slug": "template-wedding-premium",
+    "status": "template",
+    "guestSystem": {
+      "enabled": true,
+      "showPasses": true
+    }
+  },
+  "theme": {
+    "base": "romantic",
+    "overrides": {}
+  },
+  "sections": {
+    "introEnvelope": {
+      "enabled": true,
+      "title": "Invitación para",
+      "showGuestName": true,
+      "buttonText": "Abrir invitación"
+    },
+    "topBar": {
+      "enabled": true,
+      "links": {
+        "rsvp": "#",
+        "maps": "#",
+        "calendar": "#"
+      }
+    },
+    "hero": {
+      "enabled": true,
+      "names": "Nombre & Nombre",
+      "date": "DD Mes AAAA",
+      "city": "Ciudad, País",
+      "ctaText": "Confirmar asistencia"
+    },
+    "welcome": {
+      "enabled": true,
+      "message": "Nos llena de alegría compartir este día tan especial contigo."
+    },
+    "countdown": {
+      "enabled": true,
+      "dateTime": "YYYY-MM-DDTHH:MM:SS"
+    },
+    "ceremony": {
+      "enabled": true,
+      "place": "Nombre del lugar",
+      "address": "Dirección completa",
+      "time": "HH:MM",
+      "mapsLink": "#"
+    },
+    "reception": {
+      "enabled": true,
+      "place": "Nombre del lugar",
+      "address": "Dirección completa",
+      "time": "HH:MM",
+      "mapsLink": "#"
+    },
+    "timeline": {
+      "enabled": true,
+      "items": [{ "time": "HH:MM", "description": "Momento importante" }]
+    },
+    "dressCode": {
+      "enabled": true,
+      "title": "Dress Code",
+      "description": "Vestimenta formal."
+    },
+    "importantInfo": {
+      "enabled": true,
+      "notes": ["Rogamos puntualidad", "Evento sin niños"]
+    },
+    "lodging": {
+      "enabled": true,
+      "options": [
+        {
+          "name": "Nombre del hotel",
+          "link": "#",
+          "distance": "Distancia aproximada"
+        }
+      ]
+    },
+    "transport": {
+      "enabled": true,
+      "details": "Información sobre transporte."
+    },
+    "gifts": {
+      "enabled": true,
+      "type": "Lluvia de sobres",
+      "details": "Tu presencia es nuestro mejor regalo."
+    },
+    "gallery": {
+      "enabled": true,
+      "images": ["/images/sample1.jpg"]
+    },
+    "story": {
+      "enabled": true,
+      "content": "Breve historia de los novios."
+    },
+    "playlist": {
+      "enabled": true,
+      "spotifyLink": "#",
+      "description": "Agrega tu canción favorita."
+    },
+    "memories": {
+      "enabled": true,
+      "uploadLink": "#",
+      "instructions": "Comparte tus fotos del evento."
+    },
+    "finalCTA": {
+      "enabled": true,
+      "text": "Confirma tu asistencia",
+      "whatsappNumber": "+0000000000",
+      "message": "Hola, confirmo mi asistencia."
+    },
+    "footer": {
+      "enabled": true,
+      "closingText": "Gracias por acompañarnos en este día tan especial.",
+      "copyright": "© Anvetcorp"
+    }
+  }
+}
