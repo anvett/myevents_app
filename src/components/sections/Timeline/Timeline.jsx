@@ -133,7 +133,7 @@ export default function Timeline({ config = {}, theme }) {
                     <div className="w-14 h-14 rounded-full bg-white/80 backdrop-blur-sm flex items-center justify-center shadow-sm mb-2">
                       <Icon className={`w-6 h-6 ${colors.primary}`} />
                     </div>
-                    <h3 className={`typo-h3 ${fonts.accent} ${colors.primary}`}>
+                    <h3 className={`typo-subt ${fonts.accent} ${colors.primary}`}>
                       {item.description}
                     </h3>
                   </div>

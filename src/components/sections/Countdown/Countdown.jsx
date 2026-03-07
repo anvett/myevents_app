@@ -65,11 +65,11 @@ export default function Countdown({ config = {}, theme }) {
               key={index}
               className="flex flex-col items-center justify-center py-6 md:py-8"
             >
-              <span className={`typo-h2 ${fonts.heading} ${colors.primary}`}>
+              <span className={`typo-h1 ${fonts.heading} ${colors.primary}`}>
                 {item.value}
               </span>
 
-              <span className={`typo-body-xs ${fonts.body} ${colors.secondary}`}>
+              <span className={`typo-body-sm ${fonts.body} ${colors.secondary}`}>
                 {item.label}
               </span>
             </div>

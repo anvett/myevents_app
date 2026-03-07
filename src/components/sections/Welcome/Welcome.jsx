@@ -42,14 +42,14 @@ export default function Welcome({
 
       {/* MESSAGE */}
       {message && (
-        <p className={`typo-body-sm ${fonts.body} leading-relaxed`}>
+        <p className={`typo-body ${fonts.body} leading-relaxed`}>
           {message}
         </p>
       )}
 
       {/* SIGNATURE */}
       {signature && signature.trim() !== "" && (
-        <p className={`typo-body-xs italic text-[#A04C3A] ${fonts.heading} mt-6 `}>
+        <p className={`typo-body italic text-[#A04C3A] ${fonts.heading} mt-6 `}>
           {signature}
         </p>
       )}

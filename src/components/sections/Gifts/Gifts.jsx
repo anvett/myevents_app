@@ -368,7 +368,7 @@ export default function Gifts({ config = {}, theme }) {
         >
           <Gift className={`w-8 h-8 ${colors.primary}`} />
 
-          <span className={`typo-h3 ${fonts.accent} ${colors.primary}`}>
+          <span className={`typo-h2 ${fonts.accent} ${colors.primary}`}>
             {type}
           </span>
         </button>
@@ -382,7 +382,7 @@ export default function Gifts({ config = {}, theme }) {
           >
             <Landmark className={`w-8 h-8 ${colors.primary}`} />
 
-            <span className={`typo-h3 ${fonts.accent} ${colors.primary}`}>
+            <span className={`typo-h2 ${fonts.accent} ${colors.primary}`}>
               Transferencia bancaria
             </span>
           </button>
@@ -404,8 +404,7 @@ export default function Gifts({ config = {}, theme }) {
 
         <p className={`typo-body ${fonts.body} ${colors.dark}`}>
           Tu presencia es nuestro mayor regalo, pero si deseas
-          tener un detalle con nosotros, agradecemos una lluvia
-          de sobres.
+          tener un detalle con nosotros, agradecemos que deposites tu sobre en el baúl.
         </p>
 
       </ModalBase>

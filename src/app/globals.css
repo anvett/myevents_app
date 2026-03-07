@@ -31,7 +31,11 @@ _____________________________ */
 @layer utilities {
 
   .typo-h1 {
-    @apply text-[36px] md:text-[48px] leading-[1.2] tracking-wide;
+    @apply text-[40px] md:text-[48px] leading-[1.2] tracking-wide;
+  }
+
+  .typo-subt {
+    @apply text-[32px] md:text-[42px] leading-[1.25];
   }
 
   .typo-h2 {

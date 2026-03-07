@@ -119,7 +119,7 @@ export default function Hero({
 
           {city && (
             <motion.p
-              className={`typo-h3 ${fonts.accent} ${colors.secondary} font-semibold mt-2 mb-12`}
+              className={`typo-subt ${fonts.accent} ${colors.dark}  mt-2 mb-12`}
               {...itemMotionProps}
             >
               {city}
