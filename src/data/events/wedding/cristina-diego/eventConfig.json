@@ -8,6 +8,12 @@
       "enabled": true,
       "showPasses": true
     },
+    "share": {
+      "title": "Cris & Diego – Nuestra Boda",
+      "description": "Te invitamos a celebrar con nosotros este día tan especial. 01 de mayo 2026.",
+      "image": "/images/share/cristina-diego.jpeg",
+      "url": "https://inv.anvetly.com/wedding/cristina-diego"
+    },
     "effects": {
       "petalsRain": {
         "enabled": true
