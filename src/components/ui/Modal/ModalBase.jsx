@@ -69,7 +69,7 @@ export default function ModalBase({
             <div className="mt-10 flex justify-center">
               <button
                 onClick={onClose}
-                className={`cursor-pointer px-8 py-2 rounded-lg border ${colors?.buttonPrimary || "border-gray-300"}`}
+                className={`cursor-pointer px-8 py-2 rounded-full border ${colors?.buttonPrimary || "border-gray-300"}`}
               >
                 Cerrar
               </button>

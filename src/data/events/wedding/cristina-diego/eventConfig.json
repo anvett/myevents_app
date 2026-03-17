@@ -261,39 +261,46 @@
         "intro": "Un recorrido por algunos momentos que marcaron nuestra historia.",
         "events": [
           {
-            "date": "15 Febrero 2016",
+            "date": "2013",
             "icon": "heart",
-            "title": "Nuestro primer encuentro",
-            "description": "¡Me dijo que era ladrón!",
-            "image": "/images/story/10.png"
+            "title": "Nos conocimos",
+            "description": "Sin saberlo, estábamos frente al amor de nuestras vidas.",
+            "image": "/images/story/111.png"
           },
           {
-            "date": "15 Febrero 2017",
+            "date": "2014",
             "icon": "heart",
-            "title": "Nos empezamos a conocer",
-            "description": "Qué linda personalidad",
-            "image": "/images/story/11.png"
+            "title": "Siempre cuidándonos",
+            "description": "En los momentos difíciles, como aquella pierna rota, siempre estuvimos el uno para el otro.",
+            "image": "/images/story/12.png"
           },
           {
-            "date": "15 Febrero 2018",
+            "date": "2014",
             "icon": "heart",
-            "title": "Empezó el amor",
-            "description": "Por fin me conquistó",
-            "image": "/images/story/1.jpeg"
+            "title": "Una pelea tonta",
+            "description": "Incluso discutimos por una prueba de química… pero aprendimos a perdonarnos.",
+            "image": "/images/story/13.png"
           },
           {
-            "date": "Junio 2019",
+            "date": "2016",
             "icon": "map",
-            "title": "Me pidió ser su novia",
-            "description": "Acepté ante tanta insistencia.",
-            "image": "/images/story/4.jpeg"
+            "title": "El destino nos acercó",
+            "description": "Entre estudios y risas comenzamos a descubrir que éramos algo más.",
+            "image": "/images/story/14.png"
           },
           {
-            "date": "Noviembre 2025",
+            "date": "2019",
+            "icon": "heart",
+            "title": "El mejor equipo",
+            "description": "Nuestra tesis nos recordó que trabajamos mejor cuando estamos juntos.",
+            "image": "/images/story/15.png"
+          },
+          {
+            "date": "Diciembre 2025",
             "icon": "ring",
-            "title": "La propuesta",
-            "description": "Un momento inolvidable que cambió nuestras vidas.",
-            "image": "/images/story/3.jpeg"
+            "title": "El siguiente capítulo",
+            "description": "Después de tantos años decidimos dar el paso más importante de nuestras vidas.",
+            "image": "/images/story/16.png"
           }
         ]
       }
@@ -309,7 +316,7 @@
       },
       "overrides": {},
       "config": {
-        "spotifyLink": "https://open.spotify.com/playlist/4B4lLxZ3ecHSgnqRNx4phu?si=5135ec9f518b49d1&pt=0f1e3583f3f784b6b2a3cd45b59132ad",
+        "spotifyLink": "https://open.spotify.com/playlist/4B4lLxZ3ecHSgnqRNx4phu?si=c077e26fdb8345e9&pt=3a7b92a248271e668355e921f1b58856",
         "description": "Agrega tu canción favorita."
       }
     },

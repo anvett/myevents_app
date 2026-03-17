@@ -450,7 +450,7 @@ export default function Gifts({ config = {}, theme }) {
 
             <button
               onClick={copyAccount}
-              className={`cursor-pointer px-6 py-2 rounded-lg border ${colors.buttonPrimary}`}
+              className={`cursor-pointer px-6 py-2 rounded-full border ${colors.buttonPrimary}`}
             >
               Copiar número de cuenta
             </button>
@@ -478,7 +478,7 @@ export default function Gifts({ config = {}, theme }) {
 
             <button
               onClick={copyId}
-              className={`cursor-pointer px-6 py-2 rounded-lg border ${colors.buttonPrimary}`}
+              className={`cursor-pointer px-6 py-2 rounded-full border ${colors.buttonPrimary}`}
             >
               Copiar número de identificación
             </button>

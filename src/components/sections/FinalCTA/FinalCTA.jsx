@@ -64,7 +64,7 @@ Total asistentes: ${totalPeople}.
         <div className="mt-10 flex justify-center">
           <button
             onClick={() => setOpen(true)}
-            className={`cursor-pointer px-8 py-4 rounded-lg inline-flex items-center gap-3 ${colors?.buttonPrimary || ""}`}
+            className={`cursor-pointer px-8 py-4 rounded-full inline-flex items-center gap-3 ${colors?.buttonPrimary || ""}`}
           >
             <MessageCircle size={20} />
             Confirmar por WhatsApp

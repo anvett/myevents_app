@@ -123,7 +123,7 @@ export default function Memories({
             href={uploadLink}
             target="_blank"
             rel="noopener noreferrer"
-            className={`cursor-pointer px-8 py-3 rounded-lg inline-flex items-center gap-2 ${colors?.buttonPrimary || ""}`}
+            className={`cursor-pointer px-8 py-3 rounded-full inline-flex items-center gap-2 ${colors?.buttonPrimary || ""}`}
           >
             Subir fotos
           </a>

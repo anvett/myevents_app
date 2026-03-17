@@ -4,6 +4,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import { motion, useReducedMotion } from "framer-motion";
 import { fadeUp, staggerContainer } from "@/lib/motion";
 
@@ -140,8 +141,10 @@ export default function Hero({
             className="mt-10 md:mt-10 block lg:hidden"
             {...itemMotionProps}
           >
-            <img
-              src="/images/flores-hero2.png"
+            <Image
+              src="/images/flores-hero.png"
+              width={300}
+              height={200}
               alt=""
               className="w-full max-w-[320px] mx-auto h-auto opacity-90"
             />

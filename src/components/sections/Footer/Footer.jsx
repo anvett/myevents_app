@@ -4,11 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Heart } from "lucide-react";
 
-export default function Footer({
-  config = {},
-  theme = {}
-}) {
-
+export default function Footer({ config = {}, theme = {} }) {
   const { closingText, copyright } = config;
 
   const colors = theme?.colors || {};
@@ -22,26 +18,28 @@ export default function Footer({
       transition={{ duration: 0.6 }}
       className="text-center max-w-3xl mx-auto"
     >
-
       {/* SEPARADOR */}
 
       <div className="flex items-center justify-center gap-4 mb-10">
-
         <div className="h-px w-16 bg-current opacity-30"></div>
 
         <Heart className={`w-5 h-5 ${colors?.primary || ""}`} />
 
         <div className="h-px w-16 bg-current opacity-30"></div>
-
       </div>
 
       {/* TEXTO FINAL */}
 
       {closingText && (
-        <p className={`typo-body ${fonts?.body || ""}`}>
-          {closingText}
-        </p>
+        <p className={`typo-body pb-8 ${fonts?.body || ""}`}>{closingText}</p>
       )}
+
+      <button
+        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        className={`cursor-pointer px-8 py-4 rounded-full inline-flex items-center gap-3 ${colors?.buttonPrimary || ""}`}
+      >
+        Regresar al inicio ↑
+      </button>
 
       {/* COPYRIGHT */}
 
@@ -50,7 +48,6 @@ export default function Footer({
           {copyright}
         </p>
       )}
-
     </motion.div>
   );
 }

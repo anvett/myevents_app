@@ -74,7 +74,7 @@ export default function Playlist({
             href={cleanLink}
             target="_blank"
             rel="noopener noreferrer"
-            className={`cursor-pointer px-6 py-3 rounded-lg flex items-center justify-center gap-2 ${colors?.buttonPrimary || ""}`}
+            className={`cursor-pointer px-6 py-3 rounded-full flex items-center justify-center gap-2 ${colors?.buttonPrimary || ""}`}
           >
             <Music size={18} />
             Agregar canción
@@ -86,7 +86,7 @@ export default function Playlist({
             href={cleanLink}
             target="_blank"
             rel="noopener noreferrer"
-            className={`cursor-pointer px-6 py-3 rounded-lg border flex items-center justify-center gap-2 ${colors?.primary || ""}`}
+            className={`cursor-pointer px-6 py-3 rounded-full border flex items-center justify-center gap-2 ${colors?.primary || ""}`}
           >
             Abrir en Spotify
           </a>
