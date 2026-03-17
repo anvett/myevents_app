@@ -226,7 +226,7 @@ export default function Story({
 
             {selectedEvent.image && (
 
-              <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden mb-6">
+              <div className="relative w-full aspect-[1/1] rounded-lg overflow-hidden mb-6">
                 
 
                 <Image
