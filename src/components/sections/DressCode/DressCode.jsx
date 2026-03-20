@@ -9,10 +9,13 @@ export default function DressCode({ config, theme }) {
   const { fonts } = theme;
 
   const restrictedImages = [
+    "/images/dresscode/beige_w.png",
+    "/images/dresscode/white.png",
     "/images/dresscode/terracota.jpg",
     "/images/dresscode/vino.jpg",
     "/images/dresscode/rojo.jpg",
     "/images/dresscode/beige.jpg",
+    
     
   ];
 

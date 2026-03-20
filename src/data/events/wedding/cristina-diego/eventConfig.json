@@ -295,12 +295,27 @@
             "description": "Nuestra tesis nos recordó que trabajamos mejor cuando estamos juntos.",
             "image": "/images/story/15.png"
           },
+          
+          {
+            "date": "2022",
+            "icon": "briefcase",
+            "title": "Luchando juntos",
+            "description": "Viajamos al Oriente a trabajar, incluso vendimos Shawarmas, nos sacamos el sucio para salir adelante, demostrando de qué estamos hechos.",
+            "image": "/images/story/17.png"
+          },
+          {
+            "date": "2024",
+            "icon": "heart",
+            "title": "Más fuertes que nunca",
+            "description": "Fueron momentos difíciles con operaciones y retos, pero nunca nos soltamos. Siempre juntos, siempre apoyándonos.",
+            "image": "/images/story/18.png"
+          },
           {
             "date": "Diciembre 2025",
             "icon": "ring",
             "title": "El siguiente capítulo",
             "description": "Después de tantos años decidimos dar el paso más importante de nuestras vidas.",
-            "image": "/images/story/16.png"
+            "image": "/images/story/19.png"
           }
         ]
       }
