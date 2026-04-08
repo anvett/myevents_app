@@ -1,5 +1,3 @@
-
-
 "use client";
 
 import React, { useState } from "react";
@@ -15,6 +13,8 @@ export default function FinalCTA({ config = {}, theme = {}, guest = {} }) {
 
   const guestName = guest?.name || "";
   const guestId = guest?.id || "";
+  const passes = Math.max(1, Number(guest?.passes) || 1);
+  const maxCompanions = Math.max(0, passes - 1);
 
   const [open, setOpen] = useState(false);
   const [companions, setCompanions] = useState(0);
@@ -45,8 +45,6 @@ Total asistentes: ${totalPeople}.
         transition={{ duration: 0.6 }}
         className="max-w-3xl mx-auto text-center"
       >
-        {/* TITULO */}
-
         {text && (
           <h2
             className={`typo-h1 ${fonts?.accent || ""} ${colors?.primary || ""}`}
@@ -59,8 +57,6 @@ Total asistentes: ${totalPeople}.
           Nos encantaría compartir este día contigo.
         </p>
 
-        {/* BOTON */}
-
         <div className="mt-10 flex justify-center">
           <button
             onClick={() => setOpen(true)}
@@ -71,8 +67,6 @@ Total asistentes: ${totalPeople}.
           </button>
         </div>
       </motion.div>
-
-      {/* MODAL */}
 
       <ModalBase open={open} onClose={() => setOpen(false)} colors={colors}>
         <h3
@@ -87,8 +81,6 @@ Total asistentes: ${totalPeople}.
           ¿Cuántas personas asistirán contigo?
         </p>
 
-        {/* CONTADOR */}
-
         <div className="mt-6 flex justify-center items-center gap-6">
           <button
             onClick={() => setCompanions(Math.max(0, companions - 1))}
@@ -102,14 +94,14 @@ Total asistentes: ${totalPeople}.
           </span>
 
           <button
-            onClick={() => setCompanions(companions + 1)}
+            onClick={() =>
+              setCompanions(Math.min(maxCompanions, companions + 1))
+            }
             className={`cursor-pointer typo-body ${colors?.dark || ""}`}
           >
             +
           </button>
         </div>
-
-        {/* CONFIRMAR */}
 
         <div className="mt-8 flex justify-center">
           <a
