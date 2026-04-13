@@ -160,5 +160,29 @@
     "name": "Bladimir Tello",
     "passes": 1,
     "checkedIn": false
+  },
+  {
+    "id": "gerardoMarquez",
+    "name": "Gerardo Márquez y acompañante",
+    "passes": 2,
+    "checkedIn": false
+  },
+  {
+    "id": "alexParedes",
+    "name": "Alex Paredes",
+    "passes": 1,
+    "checkedIn": false
+  },
+  {
+    "id": "omarTello",
+    "name": "Omar Tello y Esposa",
+    "passes": 2,
+    "checkedIn": false
+  },
+  {
+    "id": "xiomaraTello",
+    "name": "Xiomara Tello y Esposo",
+    "passes": 2,
+    "checkedIn": false
   }
 ]
