@@ -184,5 +184,11 @@
     "name": "Xiomara Tello y Esposo",
     "passes": 2,
     "checkedIn": false
+  },
+  {
+    "id": "vinicioCevallos",
+    "name": "Víctor Cevallos y Liz",
+    "passes": 2,
+    "checkedIn": false
   }
 ]
