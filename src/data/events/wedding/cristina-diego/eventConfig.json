@@ -46,7 +46,12 @@
       "config": {
         "title": "Invitación para",
         "showGuestName": true,
-        "buttonText": "Abrir invitación"
+        "buttonText": "Abrir invitación",
+        "backgroundImage": {
+          "enabled": true,
+          "src": "/images/intro-bg.jpg",
+          "alt": ""
+        }
       }
     }
   },
@@ -106,7 +111,23 @@
       },
       "overrides": {},
       "config": {
-        "dateTime": "2026-05-01T15:30:00"
+        "dateTime": "2026-09-01T15:30:00",
+        "content": {
+          "title": "Faltan tan solo unos días",
+          "subtitle": "para celebrar este día tan especial",
+          "labels": {
+            "days": "Días",
+            "hours": "Horas",
+            "minutes": "Minutos",
+            "seconds": "Segundos"
+          }
+        },
+        "textSizes": {
+          "title": "typo-h1",
+          "subtitle": "typo-body",
+          "numbers": "typo-h1",
+          "labels": "typo-body-sm"
+        }
       }
     },
 
@@ -116,10 +137,26 @@
       "styles": { "surface": "base" },
       "overrides": {},
       "config": {
+        "title": "Ceremonia",
         "place": "Iglesia Católica Sagrada Familia de la Rumiñahui",
         "address": "Av. del Maestro y Sebastián Buara",
+        "reference": "",
         "time": "3:30 PM",
-        "mapsLink": "https://maps.app.goo.gl/ubmwkU3KfMqoshYt9"
+        "mapsLink": "https://maps.app.goo.gl/ubmwkU3KfMqoshYt9",
+        "textStyles": {
+          "title": "primary",
+          "icons": "accent",
+          "labels": "primary",
+          "body": "dark",
+          "reference": "dark",
+          "dividers": "secondary"
+        },
+        "textSizes": {
+          "title": "typo-h1",
+          "body": "typo-body",
+          "reference": "typo-body-sm",
+          "button": "typo-button"
+        }
       }
     },
 
@@ -295,7 +332,7 @@
             "description": "Nuestra tesis nos recordó que trabajamos mejor cuando estamos juntos.",
             "image": "/images/story/15.png"
           },
-          
+
           {
             "date": "2022",
             "icon": "briefcase",

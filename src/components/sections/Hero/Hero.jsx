@@ -1,6 +1,3 @@
-
-
-
 "use client";
 
 import React from "react";
@@ -8,14 +5,13 @@ import Image from "next/image";
 import { motion, useReducedMotion } from "framer-motion";
 import { fadeUp, staggerContainer } from "@/lib/motion";
 
-
 export default function Hero({
   config = {},
   variant = "centered",
   theme,
   styles = {},
 }) {
-  const { names, date, city, ctaText } = config;
+  const { names, date, city, ctaText, decorativeImage, separators } = config;
   const { colors, fonts } = theme;
   const mobileImage = styles?.backgroundImageMobile;
 
@@ -43,6 +39,9 @@ export default function Hero({
 
     framed:
       "flex flex-col min-h-screen md:min-h-screen md:justify-end text-center",
+
+    "birthday-hero":
+  "flex flex-col min-h-screen md:min-h-[80vh] justify-end text-center",
   };
 
   const layoutClass = layoutVariants[variant] || layoutVariants.centered;
@@ -83,26 +82,37 @@ export default function Hero({
             </motion.h1>
           )}
 
-          <motion.div
-            className="flex justify-center lg:justify-start my-4"
-            {...itemMotionProps}
-          >
-            <svg
-              width="120"
-              height="20"
-              viewBox="0 0 120 20"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              className={`${colors.secondary}`}
-            >
-              <path
-                d="M10 10 Q30 0 60 10 T110 10"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                fill="none"
-              />
-            </svg>
-          </motion.div>
+          {separators?.enabled !== false &&
+            separators?.top?.enabled !== false && (
+              <motion.div
+                className="flex justify-center lg:justify-start my-4"
+                {...itemMotionProps}
+              >
+                {separators?.top?.type === "line" ? (
+                  <div
+                    className={`w-20 md:w-32 h-px ${
+                      separators?.top?.color || colors.secondary
+                    } bg-current`}
+                  />
+                ) : (
+                  <svg
+                    width="120"
+                    height="20"
+                    viewBox="0 0 120 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className={`${separators?.top?.color || colors.secondary}`}
+                  >
+                    <path
+                      d="M10 10 Q30 0 60 10 T110 10"
+                      stroke="currentColor"
+                      strokeWidth="1.5"
+                      fill="none"
+                    />
+                  </svg>
+                )}
+              </motion.div>
+            )}
 
           {date && (
             <motion.p
@@ -113,10 +123,15 @@ export default function Hero({
             </motion.p>
           )}
 
-          <motion.div
-            className={`w-20 md:w-40 h-px mx-auto my-6 ${colors.secondary} bg-current`}
-            {...itemMotionProps}
-          />
+          {separators?.enabled !== false &&
+            separators?.middle?.enabled !== false && (
+              <motion.div
+                className={`w-20 md:w-40 h-px mx-auto my-6 ${
+                  separators?.middle?.color || colors.secondary
+                } bg-current`}
+                {...itemMotionProps}
+              />
+            )}
 
           {city && (
             <motion.p
@@ -137,18 +152,20 @@ export default function Hero({
             </motion.a>
           )}
 
-          <motion.div
-            className="mt-10 md:mt-10 block lg:hidden"
-            {...itemMotionProps}
-          >
-            <Image
-              src="/images/flores-hero.png"
-              width={300}
-              height={200}
-              alt=""
-              className="w-full max-w-[320px] mx-auto h-auto opacity-90"
-            />
-          </motion.div>
+          {decorativeImage?.enabled && decorativeImage?.src && (
+            <motion.div
+              className="mt-10 md:mt-10 block lg:hidden"
+              {...itemMotionProps}
+            >
+              <Image
+                src={decorativeImage.src}
+                width={300}
+                height={200}
+                alt={decorativeImage.alt || ""}
+                className="w-full max-w-[320px] mx-auto h-auto opacity-90"
+              />
+            </motion.div>
+          )}
         </div>
       </motion.div>
     </section>

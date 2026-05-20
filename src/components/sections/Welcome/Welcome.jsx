@@ -10,7 +10,7 @@ export default function Welcome({
   theme,
 }) {
   const { title, showDivider, message, signature } = config;
-  const { fonts } = theme;
+  const { fonts, colors } = theme;
 
   const shouldReduceMotion = useReducedMotion();
 
@@ -30,26 +30,28 @@ export default function Welcome({
     >
       {/* TITLE */}
       {title && (
-        <h2 className={`typo-h1 ${fonts.accent} text-[#A04C3A] mb-4`}>
+        <h2 className={`typo-h1 ${fonts.accent} ${colors.primary} mb-4`}>
           {title}
         </h2>
       )}
 
       {/* DIVIDER */}
       {showDivider && (
-        <div className="w-20 h-px bg-current opacity-60 my-4 text-[#A04C3A]" />
+        <div
+          className={`w-20 h-px bg-current opacity-60 my-4 ${colors.secondary}`}
+        />
       )}
 
       {/* MESSAGE */}
       {message && (
-        <p className={`typo-body ${fonts.body} leading-relaxed`}>
+        <p className={`typo-body text-start pr-20 ${fonts.body} leading-relaxed`}>
           {message}
         </p>
       )}
 
       {/* SIGNATURE */}
       {signature && signature.trim() !== "" && (
-        <p className={`typo-body italic text-[#A04C3A] ${fonts.heading} mt-6 `}>
+        <p className={`typo-body italic text-start ${colors.accent} ${fonts.heading} mt-6`}>
           {signature}
         </p>
       )}

@@ -1,4 +1,11 @@
-import { Great_Vibes, Playfair_Display, Inter } from "next/font/google";
+import {
+  Great_Vibes,
+  Playfair_Display,
+  Inter,
+  Chewy,
+  Fredoka,
+  Nunito,
+} from "next/font/google";
 import "./globals.css";
 
 const fontAccent = Great_Vibes({
@@ -22,6 +29,27 @@ const fontBody = Inter({
   display: "swap",
 });
 
+const fontKidsAccent = Chewy({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-kids-accent",
+  display: "swap",
+});
+
+const fontKidsHeading = Fredoka({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-kids-heading",
+  display: "swap",
+});
+
+const fontKidsBody = Nunito({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-kids-body",
+  display: "swap",
+});
+
 export const metadata = {
   title: "InvitlyApp",
   description: "Invitación Digital",
@@ -35,6 +63,9 @@ export default function RootLayout({ children }) {
           ${fontAccent.variable}
           ${fontHeading.variable}
           ${fontBody.variable}
+          ${fontKidsAccent.variable}
+          ${fontKidsHeading.variable}
+          ${fontKidsBody.variable}
           antialiased
         `}
       >

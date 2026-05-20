@@ -1,0 +1,363 @@
+{
+  "eventMeta": {
+    "type": "birthday",
+    "slug": "cumple-juan-david",
+    "status": "active",
+    "expirationDate": "2026-07-15",
+    "guestSystem": {
+      "enabled": true,
+      "showPasses": true
+    },
+    "share": {
+      "title": "Juan David – Mi Primer Añito",
+      "description": "Te invitamos a celebrar el primer cumpleaños de Juan David 🎉",
+      "image": "/assets/events/birthday/cumple-juan-david/share/shared.jpg",
+      "url": "https://inv.anvetly.com/birthday/cumple-juan-david"
+    },
+    "effects": {
+      "confettiRain": {
+        "enabled": true
+      }
+    }
+  },
+
+  "theme": {
+    "base": "kids-party",
+    "overrides": {}
+  },
+
+  "settings": {
+    "backgroundMusic": {
+      "enabled": true,
+      "src": "/assets/events/birthday/cumple-juan-david/music/plim-plim.mp3",
+      "autoplay": true,
+      "loop": true,
+      "volume": 0.95,
+      "showControl": true
+    }
+  },
+
+  "overlays": {
+    "introEnvelope": {
+      "enabled": true,
+      "variant": "default",
+      "styles": {
+        "surface": "base"
+      },
+      "overrides": {},
+      "config": {
+        "title": "Juan David tiene una invitación especial",
+        "showGuestName": true,
+        "buttonText": "Abrir invitación",
+        "backgroundImage": {
+          "enabled": true,
+          "src": "/assets/events/birthday/cumple-juan-david/overlays/envelope-bg.png",
+          "alt": ""
+        },
+        "overlay": "bg-black/30 ",
+        "textStyles": {
+          "title": "light",
+          "guestName": "primary",
+          "passes": "light"
+        }
+      }
+    }
+  },
+
+  "sections": {
+    "hero": {
+      "enabled": true,
+      "variant": "birthday-hero",
+      "styles": {
+        "surface": "base",
+        "backgroundImage": "/assets/events/birthday/cumple-juan-david/hero/hero-desktop.jpg",
+        "backgroundImageMobile": "/assets/events/birthday/cumple-juan-david/hero/hero-mobile.jpg",
+        "overlay": "bg-dark/60"
+      },
+      "overrides": {},
+      "config": {
+        "names": "Celebramos el primer año de Juan David",
+        "date": "Sábado 13 de junio del 2026 · 14:30 AM",
+        "city": "Una fiesta llena de alegría y diversión",
+        "ctaText": "Confirmar asistencia",
+        "decorativeImage": {
+          "enabled": false,
+          "src": "",
+          "alt": ""
+        },
+        "separators": {
+          "enabled": true,
+          "top": {
+            "enabled": true,
+            "type": "wave",
+            "color": "text-[#F51B1B]"
+          },
+          "middle": {
+            "enabled": true,
+            "type": "line",
+            "color": "text-[#F51B1B]"
+          }
+        }
+      }
+    },
+
+    "welcome": {
+      "enabled": true,
+      "variant": "default",
+      "styles": {
+        "surface": "base",
+        "backgroundImage": "/assets/events/birthday/cumple-juan-david/backgrounds/welcome-mobile.jpeg",
+        "backgroundImageMobile": "/assets/events/birthday/cumple-juan-david/backgrounds/welcome-mobile.jpeg"
+      },
+      "overrides": {},
+      "config": {
+        "title": "Mi Primer Añito",
+        "showDivider": true,
+        "message": "Con mucha alegría quiero compartir contigo el primer añito de mi pequeño Juan David 🎉",
+        "signature": "- Juan David -"
+      }
+    },
+
+    "countdown": {
+      "enabled": true,
+      "variant": "default",
+      "styles": {
+        "surface": "base",
+        "backgroundImage": "/assets/events/birthday/cumple-juan-david/backgrounds/countdown-desktop.jpeg",
+        "backgroundImageMobile": "/assets/events/birthday/cumple-juan-david/backgrounds/countdown-desktop.jpeg",
+        "overlay": "bg-white/70"
+      },
+      "overrides": {},
+      "config": {
+        "dateTime": "2026-06-13T11:30:00",
+        "textStyles": {
+          "title": "primary",
+          "subtitle": "primary",
+          "numbers": "accent",
+          "labels": "primary",
+          "divider": "accent"
+        },
+        "textSizes": {
+          "title": "typo-h1",
+          "subtitle": "typo-h3",
+          "numbers": "typo-h1",
+          "labels": "typo-body-sm"
+        },
+        "content": {
+          "title": "Faltan tan solo unos días",
+          "subtitle": "para celebrar el primer añito de Juan David",
+          "labels": {
+            "days": "Días",
+            "hours": "Horas",
+            "minutes": "Minutos",
+            "seconds": "Segundos"
+          }
+        }
+      }
+    },
+
+    "ceremony": {
+      "enabled": true,
+      "variant": "default",
+      "styles": {
+        "surface": "hero"
+      },
+      "overrides": {},
+      "config": {
+        "title": "Lugar de la Fiesta",
+        "place": "Urb. Ontaneda Norte, Lote 53B",
+        "address": "Conocoto, Quito, Ecuador",
+        "reference": "A media cuadra del Centro de Espiritualidad Juan Eudes",
+        "time": "14:30 AM",
+        "mapsLink": "https://www.google.com/maps/place/ANVETCORP+Inform%C3%A1tica+y+Tecnolog%C3%ADa/@-0.2978995,-78.4923108,17z/data=!3m1!4b1!4m6!3m5!1s0x91d5a2b0678255c3:0xcba1b16c406a929d!8m2!3d-0.2979049!4d-78.4897359!16s%2Fg%2F11bwfmfm_t?entry=ttu&g_ep=EgoyMDI2MDUxMy4wIKXMDSoASAFQAw%3D%3D",
+        "textStyles": {
+          "title": "accent",
+          "icons": "accent",
+          "labels": "primary",
+          "body": "dark",
+          "reference": "dark",
+          "dividers": "secondary"
+        },
+        "textSizes": {
+          "title": "typo-h1",
+          "body": "typo-body-xl",
+          "reference": "typo-body",
+          "button": "typo-button"
+        }
+      }
+    },
+
+    "importantInfo": {
+      "enabled": true,
+      "variant": "default",
+      "styles": {
+        "surface": "base",
+        "backgroundImage": "/assets/events/birthday/cumple-juan-david/backgrounds/important-info.jpeg",
+        "backgroundImageMobile": "/assets/events/birthday/cumple-juan-david/backgrounds/important-info-mobile.jpeg",
+        "overlay": "bg-white/70"
+      },
+      "overrides": {},
+      "config": {
+        "title": "Información Importante",
+        "notes": [
+          "Evento al aire libre",
+          "Puntualidad porque habrá animación",
+          "Evento familiar",
+          "Parqueadero disponible"
+        ],
+        "extraMessage": "Queremos compartir contigo un día lleno de diversión y alegría 🎉",
+        "textStyles": {
+          "title": "primary",
+          "divider": "accent",
+          "icon": "accent",
+          "body": "dark",
+          "extraMessage": "dark"
+        },
+        "textSizes": {
+          "title": "typo-h1",
+          "body": "typo-body-xl",
+          "extraMessage": "typo-h3"
+        },
+        "boxStyles": {
+          "iconBackground": "bg-yellow-100"
+        }
+      }
+    },
+
+    "gallery": {
+      "enabled": true,
+      "variant": "slider",
+      "styles": {
+        "surface": "subtle"
+      },
+      "overrides": {},
+      "config": {
+        "title": "Momentos Especiales",
+        "intro": "Algunos recuerdos especiales de Juan David.",
+        "images": [
+          {
+            "src": "/assets/events/birthday/cumple-juan-david/gallery/saliendo_hospital.jpeg",
+            "alt": "Juan David saliendo del hospital",
+            "caption": "El inicio de una hermosa historia"
+          },
+          {
+            "src": "/assets/events/birthday/cumple-juan-david/gallery/2meses.jpeg",
+            "alt": "Juan David a los 2 meses",
+            "caption": "2 meses llenando nuestros días de ternura"
+          },
+          {
+            "src": "/assets/events/birthday/cumple-juan-david/gallery/3meses.jpeg",
+            "alt": "Juan David a los 3 meses",
+            "caption": "3 meses de sonrisas y amor"
+          },
+          {
+            "src": "/assets/events/birthday/cumple-juan-david/gallery/4meses.jpeg",
+            "alt": "Juan David a los 4 meses",
+            "caption": "4 meses descubriendo el mundo"
+          },
+          {
+            "src": "/assets/events/birthday/cumple-juan-david/gallery/5meses.jpeg",
+            "alt": "Juan David a los 5 meses",
+            "caption": "5 meses de alegría en casa"
+          },
+          {
+            "src": "/assets/events/birthday/cumple-juan-david/gallery/6meses.jpeg",
+            "alt": "Juan David a los 6 meses",
+            "caption": "Medio añito de amor infinito"
+          },
+          {
+            "src": "/assets/events/birthday/cumple-juan-david/gallery/7meses.jpeg",
+            "alt": "Juan David a los 7 meses",
+            "caption": "7 meses creciendo feliz"
+          },
+          {
+            "src": "/assets/events/birthday/cumple-juan-david/gallery/8meses.jpeg",
+            "alt": "Juan David a los 8 meses",
+            "caption": "8 meses de nuevas aventuras"
+          },
+          {
+            "src": "/assets/events/birthday/cumple-juan-david/gallery/9meses.jpeg",
+            "alt": "Juan David a los 9 meses",
+            "caption": "9 meses iluminando nuestras vidas"
+          },
+          {
+            "src": "/assets/events/birthday/cumple-juan-david/gallery/10meses.jpeg",
+            "alt": "Juan David a los 10 meses",
+            "caption": "10 meses de dulzura y travesuras"
+          },
+          {
+            "src": "/assets/events/birthday/cumple-juan-david/gallery/11meses.jpeg",
+            "alt": "Juan David a los 11 meses",
+            "caption": "11 meses antes de su gran primer añito"
+          }
+        ],
+        "textStyles": {
+          "title": "primary",
+          "intro": "accent",
+          "counter": "accent",
+          "caption": "accent"
+        },
+        "textSizes": {
+          "title": "typo-h1",
+          "intro": "typo-body-xl",
+          "counter": "typo-label"
+        },
+        "buttonStyles": {
+          "navigation": "buttonPrimary"
+        },
+        "modalStyles": {
+          "overlay": "bg-black/80 backdrop-blur-sm",
+          "panel": "bg-primary",
+          "closeIcon": "dark",
+          "closeButton": "buttonPrimary"
+        }
+      }
+    },
+
+    "memories": {
+      "enabled": true,
+      "variant": "default",
+      "styles": {
+        "surface": "base",
+        "backgroundImage": "/assets/events/birthday/cumple-juan-david/backgrounds/bg-memories.jpeg",
+        "backgroundImageMobile": "/assets/events/birthday/cumple-juan-david/backgrounds/bg-memories.jpeg",
+        "overlay": "bg-white/70"
+      },
+      "overrides": {},
+      "config": {
+        "uploadLink": "https://drive.google.com/",
+        "instructions": "Comparte tus fotos del evento y ayudemos a guardar estos recuerdos especiales 🎉"
+      }
+    },
+
+    "finalCTA": {
+      "enabled": true,
+      "variant": "default",
+      "styles": {
+        "surface": "hero"
+      },
+      "overrides": {},
+      "config": {
+        "text": "Confirmar asistencia",
+        "whatsappNumber": "593992542248",
+        "message": "Hola, confirmamos nuestra asistencia al cumpleaños de Juan David 🎉"
+      }
+    },
+
+    "footer": {
+      "enabled": true,
+      "variant": "default",
+      "styles": {
+        "surface": "base",
+        "backgroundImage": "/assets/events/birthday/cumple-juan-david/backgrounds/bg-footer.jpeg",
+        "backgroundImageMobile": "/assets/events/birthday/cumple-juan-david/backgrounds/bg-footer.jpeg",
+        "overlay": "bg-white/70"
+      },
+      "overrides": {},
+      "config": {
+        "closingText": "¡Te esperamos para celebrar juntos este día tan especial! 🎉",
+        "copyright": "© Anvetcorp SAS 2026. All rights reserved"
+      }
+    }
+  }
+}

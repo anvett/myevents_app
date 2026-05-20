@@ -1,7 +1,9 @@
 import romanticTheme from "./presets/romantic";
+import kidsPartyTheme from "./presets/kids-party";
 
 const PRESETS = {
   romantic: romanticTheme,
+  "kids-party": kidsPartyTheme,
 };
 
 function isFullThemeObject(theme) {
