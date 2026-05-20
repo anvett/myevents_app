@@ -44,7 +44,7 @@ export default function Welcome({
 
       {/* MESSAGE */}
       {message && (
-        <p className={`typo-body text-start pr-20 ${fonts.body} leading-relaxed`}>
+        <p className={`typo-body-xl text-start pr-20 ${fonts.body} leading-relaxed`}>
           {message}
         </p>
       )}

@@ -42,14 +42,14 @@
     "checkedIn": false
   },
   {
-    "id": "miguelAngelBatallas",
-    "name": "Miguel Angel Batallas",
-    "passes": 1,
+    "id": "miguelAngelBatallasYAcompanante",
+    "name": "Miguel Angel Batallas Y Acompañante",
+    "passes": 2,
     "checkedIn": false
   },
   {
     "id": "nelsonTinocoYPatriciaVaca",
-    "name": "Nelson Tinoco y Patricia Vaca",
+    "name": "Dr. Nelson Tinoco y Dra.Patricia Vaca",
     "passes": 2,
     "checkedIn": false
   },
@@ -61,7 +61,7 @@
   },
   {
     "id": "nelsonTinocoVaca",
-    "name": "Nelson Tinoco Vaca",
+    "name": "Dr.Nelson Tinoco Vaca",
     "passes": 1,
     "checkedIn": false
   },
@@ -72,14 +72,14 @@
     "checkedIn": false
   },
   {
-    "id": "berniUquillas",
-    "name": "Berni Uquillas",
+    "id": "berniUquillasYFamilia",
+    "name": "Berni Uquillas y Familia",
     "passes": 3,
     "checkedIn": false
   },
   {
-    "id": "emaVeintimilla",
-    "name": "Ema Veintimilla",
+    "id": "emmaVeintimillaYFamilia",
+    "name": "Emma Veintimilla y Familia",
     "passes": 4,
     "checkedIn": false
   },
@@ -102,14 +102,14 @@
     "checkedIn": false
   },
   {
-    "id": "luisanaSalazar",
-    "name": "Luisana Salazar",
+    "id": "luisanaSalazarYFernandoSalazar",
+    "name": "Luisana Salazar y Fernando Salazar",
     "passes": 2,
     "checkedIn": false
   },
   {
-    "id": "sabrinaYSamanta",
-    "name": "Sabrina y Samanta",
+    "id": "sabrinaSamantaYFamilia",
+    "name": "Sabrina, Samanta y Familia",
     "passes": 4,
     "checkedIn": false
   },
@@ -138,14 +138,14 @@
     "checkedIn": false
   },
   {
-    "id": "francoVillafuerteYPapas",
-    "name": "Franco Villafuerte y papas",
+    "id": "francoVillafuerteYPapitos",
+    "name": "Franco Villafuerte y Papitos",
     "passes": 3,
     "checkedIn": false
   },
   {
-    "id": "gaelUtreras",
-    "name": "Gael Utreras",
+    "id": "gaelUtrerasYFamilia",
+    "name": "Gael Utreras y Familia",
     "passes": 4,
     "checkedIn": false
   },
@@ -156,8 +156,8 @@
     "checkedIn": false
   },
   {
-    "id": "gabrielGomezYPapas",
-    "name": "Gabriel Gomez y Papas",
+    "id": "gabrielGomezYPapitos",
+    "name": "Gabriel Gomez y Papitos",
     "passes": 3,
     "checkedIn": false
   },
@@ -168,8 +168,8 @@
     "checkedIn": false
   },
   {
-    "id": "darioOnaYNovia",
-    "name": "Dario Oña y Novia",
+    "id": "darioOnaYAcompanante",
+    "name": "Dario Oña y Acompañante",
     "passes": 2,
     "checkedIn": false
   },
@@ -192,14 +192,14 @@
     "checkedIn": false
   },
   {
-    "id": "alessia",
-    "name": "Alessia",
+    "id": "alessiaYMamita",
+    "name": "Alessia y Mamita",
     "passes": 2,
     "checkedIn": false
   },
   {
-    "id": "davidAlejandro",
-    "name": "David Alejandro",
+    "id": "davidAlejandroYPapitos",
+    "name": "David Alejandro y Papitos",
     "passes": 2,
     "checkedIn": false
   },
@@ -207,6 +207,18 @@
     "id": "mia",
     "name": "Mia",
     "passes": 2,
+    "checkedIn": false
+  },
+  {
+    "id": "juanFernandoUtreras",
+    "name": "Juan Fernando Utreras",
+    "passes": 1,
+    "checkedIn": false
+  },
+  {
+    "id": "oliverYPapitos",
+    "name": "Oliver y Papitos",
+    "passes": 3,
     "checkedIn": false
   }
 ]

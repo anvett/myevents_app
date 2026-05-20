@@ -116,7 +116,7 @@ export default function Hero({
 
           {date && (
             <motion.p
-              className={`typo-body ${fonts.body} ${colors.dark} opacity-90 mb-4`}
+              className={`typo-body-xl ${fonts.body} ${colors.dark} opacity-90 mb-4`}
               {...itemMotionProps}
             >
               {date}
