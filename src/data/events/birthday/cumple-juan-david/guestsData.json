@@ -220,5 +220,47 @@
     "name": "Oliver y Papitos",
     "passes": 3,
     "checkedIn": false
+  },
+   {
+    "id": "sarahiNavasEIsabellaNavas",
+    "name": "Sarahí Navas e Isabella Navas",
+    "passes": 2,
+    "checkedIn": false
+  },
+  {
+    "id": "maximilianoYPapitos",
+    "name": "Maximiliano y papitos",
+    "passes": 3,
+    "checkedIn": false
+  },
+  {
+    "id": "joseIgnacioYPapitos",
+    "name": "José Ignacio y papitos",
+    "passes": 3,
+    "checkedIn": false
+  },
+  {
+    "id": "yolandaVeintimillaYEsposo",
+    "name": "Yolanda Veintimilla y Esposo",
+    "passes": 2,
+    "checkedIn": false
+  },
+  {
+    "id": "briggite",
+    "name": "Briggite",
+    "passes": 1,
+    "checkedIn": false
+  },
+  {
+    "id": "carlosQuintanillaYFamilia",
+    "name": "Carlos Quintanilla y familia",
+    "passes": 4,
+    "checkedIn": false
+  },
+  {
+    "id": "buracEspinozaYMamita",
+    "name": "Burac Espinoza y mamita",
+    "passes": 2,
+    "checkedIn": false
   }
 ]
