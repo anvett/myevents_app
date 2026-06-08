@@ -262,5 +262,54 @@
     "name": "Burac Espinoza y mamita",
     "passes": 2,
     "checkedIn": false
+  },
+  {
+    "id": "marioArauz",
+    "name": "Mario Arauz",
+    "passes": 1,
+    "checkedIn": false
+  },
+  {
+    "id": "alejandroYFamilia",
+    "name": "Alejandro y Familia",
+    "passes": 3,
+    "checkedIn": false
+  },
+  {
+    "id": "esteban",
+    "name": "Esteban",
+    "passes": 1,
+    "checkedIn": false
+  },
+  {
+    "id": "eduardo",
+    "name": "Eduardo",
+    "passes": 1,
+    "checkedIn": false
+  },
+  {
+    "id": "danniel",
+    "name": "Danniel",
+    "passes": 1,
+    "checkedIn": false
+  },
+  {
+    "id": "gonzaloQuingaYFamilia",
+    "name": "Gonzalo Quinga y Familia",
+    "passes": 3,
+    "checkedIn": false
+  },
+  {
+    "id": "estefania",
+    "name": "Estefania",
+    "passes": 1,
+    "checkedIn": false
+  },
+  {
+    "id": "vanesa",
+    "name": "Vanesa",
+    "passes": 1,
+    "checkedIn": false
   }
+  
 ]
